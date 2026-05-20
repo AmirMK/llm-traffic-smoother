@@ -37,8 +37,7 @@ gcloud projects add-iam-policy-binding your_project_id \
   --member="serviceAccount:YOUR_PROJECT_NUMBER-compute@developer.gserviceaccount.com" \
   --role="roles/cloudtasks.enqueuer"
 ```
-### 4. Grant IAM Permissions
-Usage (Calling the API)
+### ⚡ Usage (Calling the API)
 Once deployed, you can trigger a background job by calling the /ask endpoint. The API will immediately return a 202 Queued receipt, while the background worker processes the LLM prompt and saves the result to Google Cloud Storage.
 
 Note: Ensure your query parameters are URL-encoded (e.g., %20 for spaces).
@@ -58,5 +57,13 @@ Expected Response (Instant):
 The final LLM answer will be saved asynchronously to your specified GCS bucket at:
 ```bash gs://your_gcs_bucket/results/test-001/answer.json ```
 
+### 💡 Bulk Testing (Python Script)
+Want to test the rate-limiting under a heavy load? Check out the `scripts/` directory in this repository. 
 
+It includes a `test_script.py` script and a sample text file of questions. You can use it to instantly blast the API with dozens of requests at once, allowing you to watch Cloud Tasks perfectly smooth out the traffic spike in real time!
+
+```bash
+cd scripts
+python3 test_script.py
+```
      
