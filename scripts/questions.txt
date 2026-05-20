@@ -1,0 +1,24 @@
+q-001|What is the capital of France?
+q-002|Who wrote Hamlet?
+q-003|What is the speed of light?
+q-004|Explain quantum physics in one sentence.
+q-005|What is the tallest mountain in the world?
+q-006|Who painted the Mona Lisa?
+q-007|What is the chemical symbol for gold?
+q-008|In what year did the Apollo 11 moon landing occur?
+q-009|What is the largest ocean on Earth?
+q-010|Who discovered penicillin?
+q-011|What is the capital of Japan?
+q-012|How many planets are in the Solar System?
+q-013|What is the hardest natural substance on Earth?
+q-014|Who wrote the novel 1984?
+q-015|What is the freezing point of water in Fahrenheit?
+q-016|Which element has the atomic number 1?
+q-017|Who was the first President of the United States?
+q-018|What is the main ingredient in guacamole?
+q-019|Which planet is known as the Red Planet?
+q-020|What is the longest river in the world?
+q-021|Who formulated the theory of relativity?
+q-022|How many continents are there on Earth?
+q-023|What is the largest mammal in the world?
+q-024|What is the currency of the United Kingdom?
